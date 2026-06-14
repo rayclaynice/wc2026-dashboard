@@ -538,6 +538,7 @@ fig15.layout.updatemenus[0].buttons[0].args[1]['frame']['duration'] = 800
 
 #  DASH APP 
 app = dash.Dash(__name__)
+server = app.server
 
 def section_header(title):
     return html.H2(title, style={
